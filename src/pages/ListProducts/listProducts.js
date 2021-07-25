@@ -27,7 +27,7 @@ function ListProducts() {
                                 <section>
                                     <div className='name'>
                                         <p><span>{item.product}</span></p>
-                                        <p>{item.price}</p>
+                                        <p>R$ {item.price}</p>
                                     </div>
                                     <div className='content'>
                                         <div>
