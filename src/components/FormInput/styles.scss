@@ -1,0 +1,27 @@
+$input-background:rgb(182, 177, 177);
+$input-text-color: #651dd1;
+
+.form-div{
+    display: flex;
+    width: 40rem;
+    height: 3rem;
+    background-color: $input-background;
+    margin: 0.5rem;
+    border-radius: 0.5rem;
+    justify-content: flex-start;
+    align-items: center;
+    color: $input-text-color;
+    h3{
+        width: 12rem;
+        margin: 0 0.5rem;
+    }
+    input{
+        width: calc(100% - 12rem);
+        background-color: $input-background;
+        border-radius: 0.5rem;
+        color: $input-text-color;
+        &::placeholder{
+            color: rgba($input-text-color, 0.5);
+        }
+    }
+}

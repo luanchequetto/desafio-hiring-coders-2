@@ -1,0 +1,9 @@
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+form h1 {
+  margin: 1rem;
+  font-size: 3rem;
+}

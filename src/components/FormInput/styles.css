@@ -1,0 +1,25 @@
+.form-div {
+  display: flex;
+  width: 40rem;
+  height: 3rem;
+  background-color: #b6b1b1;
+  margin: 0.5rem;
+  border-radius: 0.5rem;
+  justify-content: flex-start;
+  align-items: center;
+  color: #651dd1;
+}
+.form-div h3 {
+  width: 12rem;
+  margin: 0 0.5rem;
+}
+.form-div input {
+  width: calc(100% - 12rem);
+  background-color: #b6b1b1;
+  border-radius: 0.5rem;
+  color: #651dd1;
+  margin-right: 0.5rem;
+}
+.form-div input::placeholder {
+  color: rgba(101, 29, 209, 0.5);
+}

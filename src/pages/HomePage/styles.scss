@@ -1,0 +1,12 @@
+#home{
+    height: calc(100vh - 10vh);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #651dd1;
+    img{
+        width: 15rem;
+        height: 15rem;
+    }
+}

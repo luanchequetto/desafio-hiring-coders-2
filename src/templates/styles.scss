@@ -1,0 +1,34 @@
+$button-color: #651dd1;
+$button-text-color: #68de5a;
+$button-hover-color: #4804ad;
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+    height: 100vh;
+}
+
+.content {
+    font-size: 1.6rem;
+
+    button {
+        border-radius: 0.5rem;
+        width: 40rem;
+        height: 3rem;
+        cursor: pointer;
+        background-color: $button-color;
+        color: $button-text-color;
+        &:hover{
+            background-color: $button-hover-color;
+        }
+
+    }
+}

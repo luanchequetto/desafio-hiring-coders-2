@@ -1,0 +1,27 @@
+.header-content {
+  display: flex;
+  width: 100vw;
+  height: 10vh;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #8C52E5;
+}
+.header-content img {
+  margin-left: 1rem;
+  width: 3.2rem;
+  height: 3.2rem;
+}
+.header-content div {
+  display: flex;
+  justify-content: space-around;
+}
+.header-content div a {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  color: white;
+  width: 20rem;
+}
+.header-content div a:hover {
+  color: #68de5a;
+}

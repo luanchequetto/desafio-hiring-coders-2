@@ -1,0 +1,43 @@
+li {
+  margin: 1rem 0;
+  background: #b6b1b1;
+}
+li:hover {
+  background-color: #651dd1;
+}
+li:hover .name span {
+  color: #68de5a;
+}
+li section {
+  margin: 0 2rem;
+  display: flex;
+  align-items: center;
+}
+li section .name {
+  width: 15%;
+  display: flex;
+  flex-direction: column;
+  margin-right: 10rem;
+  color: white;
+}
+li section .name span {
+  font-size: 3rem;
+  color: #651dd1;
+}
+li section .content {
+  width: 85%;
+  display: flex;
+  align-items: center;
+  color: white;
+  justify-content: space-around;
+}
+li section .content div {
+  display: flex;
+  flex-direction: column;
+}
+li section .content div p {
+  text-align: center;
+}
+li section #remove-btn {
+  width: 10rem;
+}
